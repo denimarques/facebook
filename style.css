@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0efef;
+}
+
+header {
+    font-family: inherit;
+}
+
+.header {
+    margin-top: 100px;
+    margin-left: 265px;
+}
+
+.bloco-1 h2 {
+    font-size: 28px;
+}
+
+.bloco-1 p {
+    color: #707070;
+}
+
+.img1 {
+    width: 160px;
+    margin-top: 30px;
+    height: 160px;
+    background: #707070;
+    background: url(foto.jpg) no-repeat top;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 2px 15px #707070;
+}
+
+.legenda {
+    width: 160px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 2px 15px #707070;
+}
+
+.legenda p {
+    color: rgb(73, 72, 72);
+    font-size: 20px;
+    padding: 10px;
+}
+
+form input,
+button {
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+form {
+    margin: 10px;
+}
+
+.bloco-2 button {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background: #166fe5;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px #707070;
+}
+
+.bloco-2 button:hover {
+    background: #1364ce;
+}
+
+.redefinir {
+    color: #166fe5;
+    margin-bottom: 20px;
+}
+
+.bloco-interno {
+    padding-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.bloco-interno a {
+    display: block;
+    text-align: center;
+}
+
+fieldset:nth-child(1) {
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.conta {
+    width: 50%;
+    padding: 15px 0;
+    margin: 20px auto;
+    color: #fff;
+    background: #36a420;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 1px 2px 15px #707070;
+}
+
+.conta:hover {
+    background: #2e8b1b;
+}
+
+.criar_page {
+    text-align: left;
+    font-size: 14px;
+}
+
+.criar_page a {
+    font-weight: bold;
+}
